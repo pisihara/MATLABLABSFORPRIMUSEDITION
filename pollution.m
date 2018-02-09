@@ -1,4 +1,4 @@
-M = xlsread('minilab.xlsx'); %import data
+M = xlsread('pollution.xlsx'); %import data
 y = M(:,1); %SO2 level
 x = M(:,2); %temperature
 

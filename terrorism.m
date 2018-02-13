@@ -1,7 +1,7 @@
 %% Terrorism Mini-Lab
  clear all; close all;
 %% Read data:1.year, 2.month, 3.claim?(1 or 0), 4.killed, 5.wounded
- [data]=xlsread('terrorism_data.xlsx'); % Read in Excel data
+ [data]=xlsread('terrorism.xlsx'); % Read in Excel data
 %% Separate claimed and unclaimed events
 [claimed,unclaimed]=split_data(data); 
 %% Process split data

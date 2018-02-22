@@ -15,5 +15,5 @@ surf(SS);
 hold off
 title('CORE GANG POPULATION LEVELS');
 xlabel('j value (core imprisonment rate = .01 j)'); 
-ylabel('i value (recidvism rate  1- f = 1-.01 i)');
+ylabel('i value (recidivism rate  f = .01 i)');
 zlabel('Steady State Gang Population'); 

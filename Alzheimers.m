@@ -1,4 +1,5 @@
 %% ALZHEIMERS LAB  
+%% Added by Tim Kartawijaya
 clear all;close all;format long;
 %% ASSIGN  RATE CONSTANTS
 k1=7.34*86000; k2=0; k3=0; r12=7.6*10^(-6)*86000; r21=0; r13=0; r31=3.77*10^(-5)*86000; 

@@ -7,9 +7,9 @@ for i=1:length(DATA)
      COUNTRY(i,1)=DATA(i,1);
 %% Lines 14-18 Store Vulnerability values
      POL(i,1)=DATA(i,2);  %SLAVERY POLICY
-     HURT(i,2)=DATA(i,3);  %HUMAN RIGHTS
-     DEV(i,3)=DATA(i,4);  %DEVELOPMENT 
-     STAB(i,4)=DATA(i,5);  %STATE STABILITY
+     HURT(i,1)=DATA(i,3);  %HUMAN RIGHTS
+     DEV(i,1)=DATA(i,4);  %DEVELOPMENT 
+     STAB(i,1)=DATA(i,5);  %STATE STABILITY
      DISCR(i,1)=DATA(i,6);  %DISCRIMINATION
      P(i,1)=DATA(i,7);             
 end

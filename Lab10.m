@@ -9,7 +9,7 @@ mu = 0.00823; murder = .0503;
 %% Variables: T=y(1),N=y(2),S=y(3),G=y(4),R=y(5). 
 F = @(t,y) [A-mu*y(1)-murder*y(4);
  A-q*y(4)-Beta1*(y(3)+y(4))*(y(2)/y(1))+alpha*y(3)+f*rho*y(5)-mu*y(2)+lambda*(1+y(2)/y(1))*y(4);
- q*y(4)+Beta1*(y(3)+y(4))*(y(2)/y(1))-Beta2*((y(3)*y(4))/y(1))-(alpha+mu)*y(3)-delta*y(2);
+ q*y(4)+Beta1*(y(3)+y(4))*(y(2)/y(1))-Beta2*((y(3)*y(4))/y(1))-(alpha+mu)*y(3)-delta*y(3);
  Beta2*((y(3)*y(4))/y(1))+(1-f)*rho*y(5)-(Phi+murder+mu)*y(4)-lambda*(1+ y(2)/y(1))* y(4);
  Phi*y(4)-(rho+mu)*y(5)+delta*y(2)];
 %% SOLVE ODE SYSTEM NUMERICALLY
